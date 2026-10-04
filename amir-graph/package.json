@@ -1,0 +1,7 @@
+{
+  "name":"amir-graph-store",
+  "private":true,
+  "version":"1.0.0",
+  "engines":{"node":">=20"},
+  "scripts":{"dev":"vercel dev","build":"echo static-site"}
+}
