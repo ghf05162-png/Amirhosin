@@ -1,0 +1,2 @@
+const {sb}=require('./_supabase');
+module.exports=async function(req,res){try{if(req.method!=='GET')return res.status(405).json({error:'Method not allowed'});if(req.headers.authorization!=='Bearer '+process.env.ADMIN_PASSWORD)return res.status(401).json({error:'Unauthorized'});const data=await sb('orders?order=created_at.desc');return res.status(200).json(data);}catch(e){return res.status(500).json({error:e.message});}};
