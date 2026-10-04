@@ -1,0 +1,5 @@
+Copyright (c) 2026 Amirhosin Mohammadjani / Amir Graph
+
+All rights reserved.
+
+The original design and content of this project are proprietary to the owner unless separately licensed in writing. Third-party fonts, libraries, images and services remain subject to their own licenses.
